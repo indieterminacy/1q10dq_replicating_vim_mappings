@@ -85,7 +85,8 @@
     vmap y<ESC><ESC><ESC><ESC> "+z
     nmap y<ESC><ESC><ESC><ESC> "+z
     " Upper case registers?
-        nmap <C-Y>P "+P
+    " TODO Ascertain whether this is impacting P mappings
+        " nmap <C-Y>P "+P
 "== 50 Environment
 "=== 20 Content
 "==== 20 Registers
@@ -94,10 +95,14 @@
    " Copy to Clipboard Register
         vmap <C-Y>y "+y
         vmap <C-Y>d "+d
-        nmap <C-Y>p "+p
-        nmap <C-Y>P "+P
-        vmap <C-Y>p "+p
-        vmap <C-Y>P "+P
+    " TODO Ascertain whether this is impacting P mappings
+        " nmap <C-Y>p "+p
+    " TODO Ascertain whether this is impacting P mappings
+        " nmap <C-Y>P "+P
+    " TODO Ascertain whether this is impacting P mappings
+        " vmap <C-Y>p "+p
+    " TODO Ascertain whether this is impacting P mappings
+        " vmap <C-Y>P "+P
    " TODO Arp it
    " ,v = Paste
         map <C-Y>v "+gP

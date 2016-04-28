@@ -23,7 +23,8 @@
         call arpeggio#map('n', '', 0, 'dsi0', 'bi<space><ESC>P')
         call arpeggio#map('n', '', 0, 'iq', 'bi<space><ESC>P')
     " Paste after word
-        call arpeggio#map('n', '', 0, 'dsip', 'ea<space><ESC>p')
+    " TODO Ascertain whether effecting p mappings
+        " call arpeggio#map('n', '', 0, 'dsip', 'ea<space><ESC>p')
         call arpeggio#map('n', '', 0, 'ie', 'ea<space><ESC>p')
         nnoremap iie ea<space><ESC>
 "== 50 Environment
